@@ -6,8 +6,7 @@ This project is an authentication system built with Express, Knex, MySQL, and Re
 
 Before you begin, ensure you have met the following requirements:
 - Node.js and npm installed on your machine
-- MySQL installed and running
-- Create a `.env` file with the necessary environment variables (see `.env.example`)
+- MySQL installed and running (XAMPP)
 
 ## Installation
 
