@@ -14,20 +14,19 @@ Before you begin, ensure you have met the following requirements:
 1. **Clone the repository**
 
     ```sh
-    git clone https://github.com/your-repository/authentication-system.git
-    cd authentication-system
+    git clone https://github.com/nopalraihan/BE-hyperial.git
+    cd hyperiall-be
     ```
 
 2. **Install backend dependencies**
 
     ```sh
-    cd backend
     npm install
     ```
 
 3. **Configure the MySQL database**
 
-    - Create a MySQL database (e.g., `auth_system`)
+    - Create a MySQL database (e.g., `db_hyperails`)
     - Update the `knexfile.js` with your MySQL database credentials
 
 4. **Run migrations and seed the database**
@@ -43,22 +42,10 @@ Before you begin, ensure you have met the following requirements:
     npm start
     ```
 
-6. **Install frontend dependencies**
-
-    ```sh
-    cd ../frontend
-    npm install
-    ```
-
-7. **Start the frontend server**
-
-    ```sh
-    npm start
-    ```
-
 ## Database Migrations
 
 To create a new migration, use:
 
 ```sh
 npx knex migrate:make migration_name
+```
