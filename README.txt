@@ -35,6 +35,9 @@ Before you begin, ensure you have met the following requirements:
     npx knex seed:run
     ```
 
+    if edit users table migration
+    npx knex migrate:rollback
+
 5. **Start the backend server**
 
     ```sh
